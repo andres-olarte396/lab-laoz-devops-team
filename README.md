@@ -5,21 +5,27 @@ Este repositorio contiene la documentación completa del equipo DevOps, incluyen
 ## 📋 Contenido
 
 ### 1. [Perfiles y Roles](./roles/README.md)
+
 Definición detallada de cada rol dentro del equipo DevOps, incluyendo responsabilidades, habilidades requeridas y límites de actuación.
 
 ### 2. [Procesos y Workflows](./procesos/README.md)
+
 Documentación de todos los procesos operativos, flujos de trabajo, y procedimientos estándar del equipo.
 
 ### 3. [Matriz de Responsabilidades (RACI)](./responsabilidades/RACI.md)
+
 Matriz RACI que define quién es Responsable, Aprobador, Consultado e Informado para cada actividad.
 
 ### 4. [Herramientas y Stack Tecnológico](./herramientas/README.md)
+
 Catálogo de herramientas utilizadas por el equipo y sus casos de uso específicos.
 
 ### 5. [Métricas y KPIs](./metricas/README.md)
+
 Indicadores clave de rendimiento y métricas de seguimiento del equipo.
 
 ### 6. [Plantillas](./plantillas/README.md)
+
 Templates y formatos estándar para documentación recurrente.
 
 ## 🎯 Objetivo
