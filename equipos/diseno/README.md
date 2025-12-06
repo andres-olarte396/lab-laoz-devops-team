@@ -17,7 +17,9 @@ El equipo de Diseño trabaja en modo **Collaboration** con Desarrollo y Producto
 
 ## 👥 Roles del Equipo
 
-### 1. [UX Designer](ux-designer.md)
+> **Ver perfiles detallados**: Cada rol tiene su propio documento con responsabilidades, skills, herramientas, métricas, interacciones, desarrollo profesional, y ejemplos de trabajo diario.
+
+### 1. [UX Designer](ux-designer.md) 🔗
 **Focus**: User experience, flows, y arquitectura de información
 
 ```yaml
@@ -38,7 +40,11 @@ Deliverables:
 Seniority: Mid to Senior (3-8 años)
 ```
 
-### 2. [UI Designer](ui-designer.md)
+📄 **[Ver perfil completo →](ux-designer.md)**
+
+---
+
+### 2. [UI Designer](ui-designer.md) 🔗
 **Focus**: Visual design, interfaz, y design systems
 
 ```yaml
@@ -59,7 +65,11 @@ Deliverables:
 Seniority: Mid to Senior (3-8 años)
 ```
 
-### 3. [UX Researcher](ux-researcher.md)
+📄 **[Ver perfil completo →](ui-designer.md)**
+
+---
+
+### 3. [UX Researcher](ux-researcher.md) 🔗
 **Focus**: User research, testing, y insights
 
 ```yaml
@@ -81,8 +91,12 @@ Seniority: Mid to Senior (3-6 años)
 Common in: Medium to large companies
 ```
 
-### 4. Product Designer (Hybrid UX+UI)
-**Focus**: End-to-end product design
+📄 **[Ver perfil completo →](ux-researcher.md)**
+
+---
+
+### 4. [Product Designer](product-designer.md) 🔗
+**Focus**: End-to-end product design (Hybrid UX+UI)
 
 ```yaml
 Note: Rol más común en startups/scale-ups
@@ -94,6 +108,10 @@ Responsabilidades:
 Seniority: Mid to Senior (3-8 años)
 Best for: Small teams, startups
 ```
+
+📄 **[Ver perfil completo →](product-designer.md)**
+
+---
 
 ## 🏗️ Estructura del Equipo
 

@@ -20,12 +20,14 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Prioridad**: Async > Sync
 
 **Por qué**:
+
 - Respeta el tiempo de deep work de todos
 - Permite trabajar en zonas horarias diferentes
 - Crea registro escrito automáticamente
 - Reduce interrupciones
 
 **Cuándo usar async**:
+
 - ✅ Updates de progreso
 - ✅ Decisiones que no son urgentes
 - ✅ Compartir información
@@ -33,6 +35,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 - ✅ Feedback no crítico
 
 **Cuándo usar sync (meetings)**:
+
 - ⚠️ Brainstorming complejo
 - ⚠️ Resolver conflictos
 - ⚠️ Decisiones urgentes
@@ -46,12 +49,14 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Principio**: Si no está escrito, no existe.
 
 **Prácticas**:
+
 - Decisiones importantes → Documentar en Confluence/Notion
 - Decisiones de arquitectura → ADR (Architecture Decision Record)
 - Acuerdos de reuniones → Meeting notes en docs compartidos
 - Procesos → README.md en repo correspondiente
 
 **Beneficios**:
+
 - Onboarding más fácil (nueva gente lee en vez de preguntar)
 - Reduce repetir misma info 10 veces
 - Evita "juego de teléfono" (información se distorsiona)
@@ -64,18 +69,21 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Regla**: Comunicación en canales públicos por defecto, DMs solo cuando es personal.
 
 **Por qué**:
+
 - Transparencia organizacional
 - Otros pueden aprender de conversaciones
 - Reduce silos de información
 - Facilita que otros contribuyan
 
 **Cuándo usar canales públicos**:
+
 - ✅ Preguntas técnicas
 - ✅ Updates de proyectos
 - ✅ Decisiones de producto
 - ✅ Bugs y issues
 
 **Cuándo usar DMs**:
+
 - 🔒 Feedback 1:1 sensible
 - 🔒 Temas de HR (salarios, performance)
 - 🔒 Información confidencial
@@ -86,12 +94,15 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 ### 4. Overcommunicate Context, Not Just Conclusions
 
 **Mal** ❌:
+
 > "Vamos a cambiar a microservices."
 
 **Bien** ✅:
+
 > "**Context**: Nuestro monolito tarda 2h en deployar y bloquea a 3 equipos. **Problema**: No podemos iterar rápido. **Solución**: Extraer módulo de Orders a microservicio. **Trade-off**: Más complejidad operacional, pero equipos autónomos. **Decisión**: Go. **Siguiente**: Tech Lead escribe ADR esta semana."
 
 **Por qué**:
+
 - Otros entienden el razonamiento, no solo la conclusión
 - Pueden cuestionar si el context cambia
 - Facilita discusiones constructivas
@@ -103,6 +114,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Principio**: En caso de duda, hacer algo es mejor que paralysis.
 
 **Práctica**:
+
 - No esperar consenso perfecto (imposible con >10 personas)
 - Decisiones reversibles → Decidir rápido, iterar
 - Decisiones irreversibles → Tomar más tiempo, consultar más gente
@@ -116,29 +128,30 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 
 #### Canales Generales
 
-| Canal | Propósito | Quién publica | Frecuencia |
-|-------|-----------|---------------|------------|
-| **#general** | Anuncios de empresa, celebraciones | Everyone | Bajo (1-2/semana) |
-| **#random** | Memes, conversación casual | Everyone | Alto (varias/día) |
-| **#wins** | Celebrar logros del equipo | Everyone | Medio (3-5/semana) |
+| Canal        | Propósito                          | Quién publica | Frecuencia         |
+| ------------ | ---------------------------------- | ------------- | ------------------ |
+| **#general** | Anuncios de empresa, celebraciones | Everyone      | Bajo (1-2/semana)  |
+| **#random**  | Memes, conversación casual         | Everyone      | Alto (varias/día)  |
+| **#wins**    | Celebrar logros del equipo         | Everyone      | Medio (3-5/semana) |
 
 ---
 
 #### Canales de Equipos
 
-| Canal | Propósito | Miembros | Actividad |
-|-------|-----------|----------|-----------|
-| **#engineering** | Todo el equipo de Engineering | All Developers, QA, DevOps, EM | Alta |
-| **#development** | Equipo de Development (Frontend, Backend, Mobile) | Developers, Tech Leads | Alta |
-| **#devops** | Equipo de DevOps/Platform | DevOps, SRE, Cloud Engineers | Media |
-| **#product** | Equipo de Producto | PMs, POs, BAs, Data Analysts | Alta |
-| **#design** | Equipo de Diseño | Designers, Researchers | Media |
-| **#architecture** | Equipo de Arquitectura | Architects, Tech Leads | Baja-Media |
-| **#qa** | Quality Assurance | QA Engineers, Automation Engineers | Media |
+| Canal             | Propósito                                         | Miembros                           | Actividad  |
+| ----------------- | ------------------------------------------------- | ---------------------------------- | ---------- |
+| **#engineering**  | Todo el equipo de Engineering                     | All Developers, QA, DevOps, EM     | Alta       |
+| **#development**  | Equipo de Development (Frontend, Backend, Mobile) | Developers, Tech Leads             | Alta       |
+| **#devops**       | Equipo de DevOps/Platform                         | DevOps, SRE, Cloud Engineers       | Media      |
+| **#product**      | Equipo de Producto                                | PMs, POs, BAs, Data Analysts       | Alta       |
+| **#design**       | Equipo de Diseño                                  | Designers, Researchers             | Media      |
+| **#architecture** | Equipo de Arquitectura                            | Architects, Tech Leads             | Baja-Media |
+| **#qa**           | Quality Assurance                                 | QA Engineers, Automation Engineers | Media      |
 
 **Qué se postea en cada canal**:
 
 **#engineering**:
+
 - ✅ Anuncios que afectan a todos (nuevo stack, proceso, tool)
 - ✅ RFCs (Request for Comments) técnicos
 - ✅ Post-mortems de incidentes
@@ -146,6 +159,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 - ❌ No: Debugging de bugs específicos (usar canales específicos)
 
 **#development**:
+
 - ✅ Preguntas técnicas (code, arquitectura)
 - ✅ Code review requests urgentes
 - ✅ Breaking changes en APIs
@@ -153,6 +167,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 - ❌ No: Product decisions (usar #product)
 
 **#devops**:
+
 - ✅ Cambios en infraestructura
 - ✅ Alertas y outages (también integrar monitoring tools)
 - ✅ Deploy announcements
@@ -160,6 +175,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 - ❌ No: Application code issues (a menos que sea infra-related)
 
 **#product**:
+
 - ✅ Roadmap updates
 - ✅ User research findings
 - ✅ Feature proposals
@@ -167,6 +183,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 - ❌ No: Technical implementation details
 
 **#design**:
+
 - ✅ Design reviews / critiques
 - ✅ Design system updates
 - ✅ Figma file shares
@@ -177,20 +194,22 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 
 #### Canales por Proyecto/Squad
 
-| Canal | Propósito | Duración |
-|-------|-----------|----------|
-| **#squad-checkout** | Equipo trabajando en checkout | Permanente |
-| **#squad-mobile** | Equipo de mobile app | Permanente |
-| **#project-oauth-migration** | Migración a OAuth 2.0 | Temporal (archivado post-launch) |
+| Canal                        | Propósito                     | Duración                         |
+| ---------------------------- | ----------------------------- | -------------------------------- |
+| **#squad-checkout**          | Equipo trabajando en checkout | Permanente                       |
+| **#squad-mobile**            | Equipo de mobile app          | Permanente                       |
+| **#project-oauth-migration** | Migración a OAuth 2.0         | Temporal (archivado post-launch) |
 
 **Naming convention**: `#squad-[nombre]` o `#project-[nombre]`
 
 **Cuándo crear un canal de proyecto**:
+
 - Proyecto dura >2 semanas
 - Involucra >3 personas
 - Necesita coordinación frecuente
 
 **Cuándo NO crear un canal de proyecto**:
+
 - Proyecto <1 semana (usar thread en #development)
 - Solo 1-2 personas (usar DM)
 - Ya existe un squad que lo cubre
@@ -199,14 +218,15 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 
 #### Canales de Operaciones
 
-| Canal | Propósito | Integraciones | Notificaciones |
-|-------|-----------|---------------|----------------|
-| **#incidents** | Incidentes de producción activos | PagerDuty, Monitoring | @channel para P0/P1 |
-| **#deploys** | Deploy notifications | CI/CD (GitHub Actions, Jenkins) | Silencioso (solo info) |
-| **#alerts** | Alertas automáticas (no críticas) | Grafana, Datadog, Azure Monitor | Silencioso |
-| **#monitoring** | Dashboards y métricas | Grafana snapshots, reports | Silencioso |
+| Canal           | Propósito                         | Integraciones                   | Notificaciones         |
+| --------------- | --------------------------------- | ------------------------------- | ---------------------- |
+| **#incidents**  | Incidentes de producción activos  | PagerDuty, Monitoring           | @channel para P0/P1    |
+| **#deploys**    | Deploy notifications              | CI/CD (GitHub Actions, Jenkins) | Silencioso (solo info) |
+| **#alerts**     | Alertas automáticas (no críticas) | Grafana, Datadog, Azure Monitor | Silencioso             |
+| **#monitoring** | Dashboards y métricas             | Grafana snapshots, reports      | Silencioso             |
 
 **Reglas de #incidents**:
+
 - Solo para incidentes activos P0/P1
 - Crear thread por incidente
 - Format: `🚨 [P0] Production API down - All users affected`
@@ -218,12 +238,12 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 
 #### Canales de Integración
 
-| Canal | Integración | Propósito | Notificaciones |
-|-------|-------------|-----------|----------------|
-| **#github** | GitHub | PRs, merges, releases | Filtrado (solo main branch) |
-| **#jira** | Jira | Story updates, sprint changes | Filtrado (solo important) |
-| **#ci-cd** | GitHub Actions / Azure Pipelines | Build status, test failures | Solo failures |
-| **#customer-feedback** | Zendesk, Intercom | User feedback, support tickets | Críticos solo |
+| Canal                  | Integración                      | Propósito                      | Notificaciones              |
+| ---------------------- | -------------------------------- | ------------------------------ | --------------------------- |
+| **#github**            | GitHub                           | PRs, merges, releases          | Filtrado (solo main branch) |
+| **#jira**              | Jira                             | Story updates, sprint changes  | Filtrado (solo important)   |
+| **#ci-cd**             | GitHub Actions / Azure Pipelines | Build status, test failures    | Solo failures               |
+| **#customer-feedback** | Zendesk, Intercom                | User feedback, support tickets | Críticos solo               |
 
 ---
 
@@ -231,13 +251,13 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 
 **Cuándo usar email en vez de Slack**:
 
-| Situación | Tool | Por qué |
-|-----------|------|---------|
-| Updates internos rápidos | Slack | Menos formal, más rápido |
-| Comunicación con stakeholders externos | Email | Más formal, auditable |
+| Situación                                            | Tool          | Por qué                                 |
+| ---------------------------------------------------- | ------------- | --------------------------------------- |
+| Updates internos rápidos                             | Slack         | Menos formal, más rápido                |
+| Comunicación con stakeholders externos               | Email         | Más formal, auditable                   |
 | Decisiones importantes que necesitan registro formal | Email + Slack | Email para record, Slack para discusión |
-| Contratos, legal, HR | Email | Requerimiento legal |
-| All-hands announcements | Email + Slack | Asegurar que todos lo vean |
+| Contratos, legal, HR                                 | Email         | Requerimiento legal                     |
+| All-hands announcements                              | Email + Slack | Asegurar que todos lo vean              |
 
 ---
 
@@ -245,13 +265,13 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 
 ### Niveles de Severidad
 
-| Nivel | Descripción | Response Time | Escalation Path |
-|-------|-------------|---------------|-----------------|
-| **P0 - Critical** | Sistema completamente caído, pérdida de datos, >50% usuarios afectados | <15min | On-call SRE → Tech Lead → Engineering Manager → CTO |
-| **P1 - High** | Funcionalidad core afectada, 20-50% usuarios afectados | <1h | On-call SRE → Tech Lead → Engineering Manager |
-| **P2 - Medium** | Funcionalidad no-core afectada, <20% usuarios afectados | <4h | On-call SRE → Tech Lead |
-| **P3 - Low** | Bug menor, workaround disponible, <5% usuarios afectados | <1 day | Developer → Tech Lead |
-| **P4 - Trivial** | Cosmético, no afecta funcionalidad | Backlog | Product Owner → Developer |
+| Nivel             | Descripción                                                            | Response Time | Escalation Path                                     |
+| ----------------- | ---------------------------------------------------------------------- | ------------- | --------------------------------------------------- |
+| **P0 - Critical** | Sistema completamente caído, pérdida de datos, >50% usuarios afectados | <15min        | On-call SRE → Tech Lead → Engineering Manager → CTO |
+| **P1 - High**     | Funcionalidad core afectada, 20-50% usuarios afectados                 | <1h           | On-call SRE → Tech Lead → Engineering Manager       |
+| **P2 - Medium**   | Funcionalidad no-core afectada, <20% usuarios afectados                | <4h           | On-call SRE → Tech Lead                             |
+| **P3 - Low**      | Bug menor, workaround disponible, <5% usuarios afectados               | <1 day        | Developer → Tech Lead                               |
+| **P4 - Trivial**  | Cosmético, no afecta funcionalidad                                     | Backlog       | Product Owner → Developer                           |
 
 ---
 
@@ -278,6 +298,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 ```
 
 **Contactos**:
+
 - **On-call SRE**: Ver rotación en PagerDuty
 - **Tech Lead**: @tech-lead-channel en Slack
 - **Engineering Manager**: @engineering-manager
@@ -302,6 +323,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 ```
 
 **Contactos**:
+
 - **Product Owner**: @po-squad-nombre
 - **Product Manager**: @pm-nombre
 - **Head of Product**: @head-of-product
@@ -328,6 +350,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 ```
 
 **Proceso**:
+
 1. Tech Lead identifica necesidad
 2. Escribe RFC (1-2 páginas)
 3. Share en #architecture para comments (3-5 días)
@@ -359,9 +382,10 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 ```
 
 **Contactos**:
-- **Security Engineer**: @security-team en Slack + security@company.com
+
+- **Security Engineer**: @security-team en Slack + <security@company.com>
 - **CTO**: Solo para P0 security
-- **Legal**: legal@company.com (solo si hay data breach o regulatorio)
+- **Legal**: <legal@company.com> (solo si hay data breach o regulatorio)
 
 ---
 
@@ -386,12 +410,12 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 ### Response Time SLAs
 
 | Severity | Acknowledge | Initial Response | Resolution Target | Communication Frequency |
-|----------|-------------|------------------|-------------------|------------------------|
-| **P0** | <10min | <15min | <2h | Every 15-30min |
-| **P1** | <30min | <1h | <8h | Every 1-2h |
-| **P2** | <2h | <4h | <2 days | Once per day |
-| **P3** | <1 day | <1 day | <1 week | As needed |
-| **P4** | Backlog | Backlog | Next sprint | Not urgent |
+| -------- | ----------- | ---------------- | ----------------- | ----------------------- |
+| **P0**   | <10min      | <15min           | <2h               | Every 15-30min          |
+| **P1**   | <30min      | <1h              | <8h               | Every 1-2h              |
+| **P2**   | <2h         | <4h              | <2 days           | Once per day            |
+| **P3**   | <1 day      | <1 day           | <1 week           | As needed               |
+| **P4**   | Backlog     | Backlog          | Next sprint       | Not urgent              |
 
 ---
 
@@ -423,25 +447,30 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Sprint Goal**: [What we aimed to achieve]
 
 ## ✅ Completed
+
 - [Feature 1] - Impact: [business value]
 - [Feature 2] - Impact: [business value]
 - [Bug fixes] - [N] bugs fixed
 
 ## ⚠️ In Progress (carried to next sprint)
+
 - [Feature 3] - Reason: [blocker or underestimation]
 
 ## 📊 Metrics
+
 - Velocity: [X] story points (avg last 3 sprints: [Y])
 - Completion rate: [Z]% (committed vs completed)
 - Deployment frequency: [N] deploys this sprint
 - Incidents: [M] (P0: 0, P1: 1, P2: 3)
 
 ## 🎯 Next Sprint Preview
+
 - Sprint Goal: [Next goal]
 - Top priorities: [List 3-5]
 ```
 
 **Distribución**:
+
 - Post en #engineering (Slack)
 - Link en Confluence sprint page
 - Email a stakeholders (opcional, solo si piden)
@@ -461,26 +490,31 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 # Engineering Weekly Update - [Week of Jan 15-19, 2025]
 
 ## 🎯 Highlights
+
 - ✅ [Major feature] shipped to 100% users, [metric] improved by X%
 - ✅ Infrastructure migration 60% complete (on track for Feb 1)
 - ⚠️ [Known issue] affecting [Y]% users, fix deploying Monday
 
 ## 📈 Key Metrics
-| Metric | This Week | Last Week | Target |
-|--------|-----------|-----------|--------|
+
+| Metric               | This Week  | Last Week  | Target   |
+| -------------------- | ---------- | ---------- | -------- |
 | Deployment Frequency | 15 deploys | 12 deploys | >10/week |
-| MTTR | 45min | 1.2h | <1h |
-| System Uptime | 99.95% | 99.89% | >99.9% |
-| Active Incidents | 0 | 1 (P2) | 0 |
+| MTTR                 | 45min      | 1.2h       | <1h      |
+| System Uptime        | 99.95%     | 99.89%     | >99.9%   |
+| Active Incidents     | 0          | 1 (P2)     | 0        |
 
 ## 🚀 In Progress
+
 - [Project A] - 70% complete (on track)
 - [Project B] - 40% complete (1 week delay due to [reason])
 
 ## 🚧 Blockers & Risks
+
 - [Blocker 1] - Impact: [X], Need: [Y], Owner: [Z]
 
 ## 📅 Next Week Focus
+
 - Ship [Feature X]
 - Complete [Infrastructure Y]
 - Hire 2 Backend Developers (3 final interviews scheduled)
@@ -499,6 +533,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Audiencia**: Toda la empresa
 
 **Contenido** (15min):
+
 1. **Major achievements** del mes (2min)
 2. **Product launches** y business impact (3min)
 3. **Engineering metrics** (DORA, uptime, velocity) (3min)
@@ -520,26 +555,31 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Contenido** (30min presentación + 30min Q&A):
 
 1. **Q[N] Objectives & Results** (OKRs)
+
    - Qué nos propusimos
    - Qué logramos (% completion)
    - Qué no logramos y por qué
 
 2. **Engineering Metrics**
+
    - DORA metrics (Deployment Frequency, Lead Time, MTTR, Change Failure Rate)
    - System uptime
    - Tech debt ratio
    - Team velocity trend
 
 3. **Product Releases**
+
    - Major features shipped
    - Business impact (revenue, users, engagement)
 
 4. **Team Growth**
+
    - Headcount: start vs end of quarter
    - New hires, attrition
    - Key promotions
 
 5. **Challenges & Learnings**
+
    - What went wrong (incidents, delays)
    - How we addressed it
    - Improvements implemented
@@ -563,6 +603,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Template**: Ver [Workflows - Incident Response & Postmortem](../workflows/README.md#incident-response--postmortem)
 
 **Distribución**:
+
 - P0: Email a toda Engineering + Executives
 - P1: Post en #engineering + #incidents
 - P2: Post en #incidents solo
@@ -592,7 +633,8 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 
 **Proposal**: [Qué proponemos hacer]
 
-**Alternatives Considered**: 
+**Alternatives Considered**:
+
 - Option A: [Pros/Cons]
 - Option B: [Pros/Cons]
 
@@ -603,6 +645,7 @@ Este directorio documenta la estrategia de comunicación organizacional para equ
 **Feedback requested by**: [Fecha]
 
 React with:
+
 - ✅ if you support
 - ❓ if you have questions
 - ⚠️ if you have concerns
@@ -620,17 +663,21 @@ Comments appreciated! 👇
 **Progress**: [X]% complete
 
 **Completed this week**:
+
 - ✅ [Task 1]
 - ✅ [Task 2]
 
 **In progress**:
+
 - 🔄 [Task 3] - ETA: [Date]
 - 🔄 [Task 4] - ETA: [Date]
 
 **Blockers**:
+
 - 🚧 [Blocker 1] - Need: [X], Owner: [@person]
 
 **Next week**:
+
 - [ ] [Task 5]
 - [ ] [Task 6]
 
@@ -647,12 +694,14 @@ Comments appreciated! 👇
 **What we decided**: [Decisión clara en 1 frase]
 
 **Why**: [Razonamiento en 2-3 bullets]
+
 - Reason 1
 - Reason 2
 
 **Who was involved**: [@person1] [@person2] [@person3]
 
 **Next steps**:
+
 1. [Action 1] - Owner: [@person] - Due: [Date]
 2. [Action 2] - Owner: [@person] - Due: [Date]
 
@@ -663,14 +712,14 @@ Comments appreciated! 👇
 
 ### Response Time Expectations (Async)
 
-| Channel | Response Time | Explanation |
-|---------|---------------|-------------|
-| **Slack message** | <4h during work hours | Best effort, not guaranteed |
-| **Slack @mention** | <2h during work hours | Higher priority |
-| **Slack @channel** | <1h | Only for important/urgent |
-| **Email** | <24h | Formal communication |
-| **PR review request** | <1 business day | Blocking work |
-| **Slack DM from manager** | <2h | 1:1 stuff usually important |
+| Channel                   | Response Time         | Explanation                 |
+| ------------------------- | --------------------- | --------------------------- |
+| **Slack message**         | <4h during work hours | Best effort, not guaranteed |
+| **Slack @mention**        | <2h during work hours | Higher priority             |
+| **Slack @channel**        | <1h                   | Only for important/urgent   |
+| **Email**                 | <24h                  | Formal communication        |
+| **PR review request**     | <1 business day       | Blocking work               |
+| **Slack DM from manager** | <2h                   | 1:1 stuff usually important |
 
 **Out of hours**: No response expected (unless on-call for incidents)
 
@@ -680,23 +729,24 @@ Comments appreciated! 👇
 
 ### Dónde Documentar Qué
 
-| Tipo de Documento | Tool | Ejemplo |
-|-------------------|------|---------|
-| **Decisiones de Arquitectura** | ADRs (Architecture Decision Records) en repo | "ADR-003: Adopt Microservices for Order Management" |
-| **Procesos de equipo** | README.md en este repo | [Workflows](../workflows/README.md), [Ceremonias](../ceremonias/README.md) |
-| **Documentación de código** | Inline comments + README en cada repo | "This function calculates..." |
-| **API documentation** | OpenAPI/Swagger + Postman collections | API specs auto-generated |
-| **Runbooks operacionales** | Confluence + links en código | "How to deploy to production" |
-| **Product specs** | Confluence/Notion | "PRD: Checkout redesign" |
-| **Design specs** | Figma + Confluence | Figma files + design rationale |
-| **Meeting notes** | Confluence/Notion | "Sprint Planning 2025-01-15" |
-| **OKRs y Roadmap** | Confluence/Notion + Google Sheets | Quarterly goals |
+| Tipo de Documento              | Tool                                         | Ejemplo                                                                    |
+| ------------------------------ | -------------------------------------------- | -------------------------------------------------------------------------- |
+| **Decisiones de Arquitectura** | ADRs (Architecture Decision Records) en repo | "ADR-003: Adopt Microservices for Order Management"                        |
+| **Procesos de equipo**         | README.md en este repo                       | [Workflows](../workflows/README.md), [Ceremonias](../ceremonias/README.md) |
+| **Documentación de código**    | Inline comments + README en cada repo        | "This function calculates..."                                              |
+| **API documentation**          | OpenAPI/Swagger + Postman collections        | API specs auto-generated                                                   |
+| **Runbooks operacionales**     | Confluence + links en código                 | "How to deploy to production"                                              |
+| **Product specs**              | Confluence/Notion                            | "PRD: Checkout redesign"                                                   |
+| **Design specs**               | Figma + Confluence                           | Figma files + design rationale                                             |
+| **Meeting notes**              | Confluence/Notion                            | "Sprint Planning 2025-01-15"                                               |
+| **OKRs y Roadmap**             | Confluence/Notion + Google Sheets            | Quarterly goals                                                            |
 
 ---
 
 ### Documentation Quality Standards
 
 **Good documentation tiene**:
+
 - ✅ **Clear title** que describe el contenido
 - ✅ **Date** de creación y última actualización
 - ✅ **Owner** (quién lo mantiene actualizado)
@@ -706,6 +756,7 @@ Comments appreciated! 👇
 - ✅ **Links** a recursos relacionados
 
 **Bad documentation**:
+
 - ❌ Sin fecha (no sabemos si está desactualizado)
 - ❌ Sin owner (nadie se hace responsable)
 - ❌ Muy técnico sin contexto (solo expertos entienden)
@@ -717,12 +768,14 @@ Comments appreciated! 👇
 ### Documentation Maintenance
 
 **Revisión trimestral** (cada 3 meses):
+
 - [ ] Engineering Manager revisa índice de documentación
 - [ ] Archivar docs obsoletos (mover a carpeta "Archive")
 - [ ] Actualizar docs desactualizados
 - [ ] Identificar gaps (qué falta documentar)
 
 **Ownership**:
+
 - Cada documento debe tener un owner (persona o equipo)
 - Owner es responsable de mantenerlo actualizado
 - Si el owner cambia de rol, reasignar ownership
@@ -731,13 +784,13 @@ Comments appreciated! 👇
 
 ## 🎯 Communication Metrics
 
-| Métrica | Target | Cómo Medir | Acción si bajo |
-|---------|--------|------------|----------------|
-| **Slack Response Time (during work hours)** | <4h (median) | Slack analytics | Recordar expectations |
-| **PR Review Time** | <1 business day | GitHub metrics | Más reviewers, reminders |
-| **Documentation Freshness** | >80% updated in last 6mo | Manual audit quarterly | Deprecate old docs |
-| **Meeting Load** | <20% of work time | Calendar analysis | Cancel/consolidate meetings |
-| **Async vs Sync Ratio** | >60% async | Message count vs meeting hours | Push more to async |
+| Métrica                                     | Target                   | Cómo Medir                     | Acción si bajo              |
+| ------------------------------------------- | ------------------------ | ------------------------------ | --------------------------- |
+| **Slack Response Time (during work hours)** | <4h (median)             | Slack analytics                | Recordar expectations       |
+| **PR Review Time**                          | <1 business day          | GitHub metrics                 | Más reviewers, reminders    |
+| **Documentation Freshness**                 | >80% updated in last 6mo | Manual audit quarterly         | Deprecate old docs          |
+| **Meeting Load**                            | <20% of work time        | Calendar analysis              | Cancel/consolidate meetings |
+| **Async vs Sync Ratio**                     | >60% async               | Message count vs meeting hours | Push more to async          |
 
 ---
 

@@ -17,7 +17,9 @@ El equipo de Producto actúa como **Stream-Aligned Team** en conjunto con Desarr
 
 ## 👥 Roles del Equipo
 
-### 1. [Product Manager](product-manager.md)
+> **Ver perfiles detallados**: Cada rol tiene su propio documento con responsabilidades, skills, stack tecnológico, métricas, interacciones, desarrollo profesional, y ejemplos de semana típica.
+
+### 1. [Product Manager](product-manager.md) 🔗
 **Focus**: Estrategia de producto, visión, y roadmap
 
 ```yaml
@@ -39,7 +41,11 @@ Seniority: Senior (5-10 años)
 Team Size: 1 PM per 7-10 engineers
 ```
 
-### 2. [Product Owner](product-owner.md)
+📄 **[Ver perfil completo →](product-manager.md)**
+
+---
+
+### 2. [Product Owner](product-owner.md) 🔗
 **Focus**: Backlog management y ejecución táctica
 
 ```yaml
@@ -61,7 +67,11 @@ Seniority: Mid to Senior (3-8 años)
 Team Size: 1 PO per squad (5-8 engineers)
 ```
 
-### 3. [Business Analyst](business-analyst.md)
+📄 **[Ver perfil completo →](product-owner.md)**
+
+---
+
+### 3. [Business Analyst](business-analyst.md) 🔗
 **Focus**: Requirements analysis y process optimization
 
 ```yaml
@@ -83,7 +93,11 @@ Seniority: Mid (3-6 años)
 Common in: Enterprise, regulated industries
 ```
 
-### 4. [Data Analyst / Product Analyst](data-analyst.md)
+📄 **[Ver perfil completo →](business-analyst.md)**
+
+---
+
+### 4. [Data Analyst](data-analyst.md) 🔗
 **Focus**: Product metrics, insights, y reporting
 
 ```yaml
@@ -104,6 +118,10 @@ Key Skills:
 Seniority: Mid (3-6 años)
 Common in: Data-driven companies
 ```
+
+📄 **[Ver perfil completo →](data-analyst.md)**
+
+---
 
 ## 🏗️ Estructura del Equipo
 
