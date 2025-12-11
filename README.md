@@ -19,6 +19,7 @@ Nuestra organización sigue el modelo **Team Topologies**, que define cuatro tip
 **Misión**: Construir y entregar software de alta calidad que resuelva problemas de usuarios y genere valor de negocio.
 
 **Roles incluidos**:
+
 - Frontend Developer
 - Backend Developer
 - Full-Stack Developer
@@ -37,6 +38,7 @@ Nuestra organización sigue el modelo **Team Topologies**, que define cuatro tip
 **Misión**: Construir y mantener plataformas internas que permitan a los equipos de desarrollo desplegar software de forma autónoma, segura y eficiente.
 
 **Roles incluidos**:
+
 - Platform Engineer
 - Cloud Engineer
 - Site Reliability Engineer (SRE)
@@ -55,6 +57,7 @@ Nuestra organización sigue el modelo **Team Topologies**, que define cuatro tip
 **Misión**: Descubrir y entregar soluciones que resuelvan problemas reales de usuarios mientras cumplen objetivos de negocio.
 
 **Roles incluidos**:
+
 - Product Manager (Estrategia)
 - Product Owner (Ejecución)
 - Business Analyst
@@ -71,6 +74,7 @@ Nuestra organización sigue el modelo **Team Topologies**, que define cuatro tip
 **Misión**: Diseñar experiencias de usuario excepcionales que sean usables, accesibles y alineadas con los objetivos de negocio.
 
 **Roles incluidos**:
+
 - UX Designer
 - UI Designer
 - UX Researcher
@@ -87,6 +91,7 @@ Nuestra organización sigue el modelo **Team Topologies**, que define cuatro tip
 **Misión**: Establecer y mantener una arquitectura técnica coherente, escalable y sostenible que permita entregar valor rápidamente mientras se gestiona la complejidad y el riesgo técnico.
 
 **Roles incluidos**:
+
 - Solution Architect
 - Enterprise Architect
 - Data Architect
@@ -102,6 +107,7 @@ Nuestra organización sigue el modelo **Team Topologies**, que define cuatro tip
 Catálogo completo de 13 stacks tecnológicos recomendados para diferentes tipos de proyectos:
 
 **Por Arquitectura**:
+
 - Microservices Stack
 - Serverless Stack
 - Monolith Stack
@@ -109,6 +115,7 @@ Catálogo completo de 13 stacks tecnológicos recomendados para diferentes tipos
 - Data Pipeline Stack
 
 **Por Lenguaje**:
+
 - .NET Stack
 - Node.js Stack
 - Python Stack
@@ -116,6 +123,7 @@ Catálogo completo de 13 stacks tecnológicos recomendados para diferentes tipos
 - Go Stack
 
 **Por Etapa de Empresa**:
+
 - Startup MVP Stack
 - Scale-Up Stack
 - Enterprise Stack
@@ -129,6 +137,7 @@ Cada stack incluye frontend, backend, bases de datos, infraestructura, CI/CD, ob
 ### [Workflows Inter-Equipos](./workflows/README.md)
 
 Documentación de procesos que cruzan múltiples equipos:
+
 - Feature Development (Discovery → Design → Development → Deployment)
 - Sprint Planning Cross-Team
 - Incident Response & Postmortem
@@ -138,6 +147,7 @@ Documentación de procesos que cruzan múltiples equipos:
 ### [Ceremonias Ágiles](./ceremonias/README.md)
 
 Documentación de ceremonias estándar:
+
 - Daily Standup
 - Sprint Planning
 - Sprint Review
@@ -147,6 +157,7 @@ Documentación de ceremonias estándar:
 ### [Comunicación](./comunicacion/README.md)
 
 Estrategia de comunicación organizacional:
+
 - Estructura de Canales (Slack/Teams)
 - Matriz de Escalación
 - Reporting y Métricas
@@ -196,23 +207,23 @@ Estrategia de comunicación organizacional:
 
 Basados en Team Topologies, usamos tres modos principales:
 
-| Modo | Descripción | Duración Típica | Ejemplo |
-|------|-------------|-----------------|---------|
-| **Collaboration** | Dos equipos trabajan juntos en un problema compartido | Sprints o meses | Desarrollo + Diseño trabajando en nueva feature |
-| **X-as-a-Service** | Un equipo consume servicios de otro con mínima interacción | Continuo | Desarrollo usando plataforma CI/CD de DevOps |
-| **Facilitating** | Un equipo ayuda a otro a adquirir nuevas capacidades | Semanas | Arquitectura ayudando a Desarrollo con microservices |
+| Modo               | Descripción                                                | Duración Típica | Ejemplo                                              |
+| ------------------ | ---------------------------------------------------------- | --------------- | ---------------------------------------------------- |
+| **Collaboration**  | Dos equipos trabajan juntos en un problema compartido      | Sprints o meses | Desarrollo + Diseño trabajando en nueva feature      |
+| **X-as-a-Service** | Un equipo consume servicios de otro con mínima interacción | Continuo        | Desarrollo usando plataforma CI/CD de DevOps         |
+| **Facilitating**   | Un equipo ayuda a otro a adquirir nuevas capacidades       | Semanas         | Arquitectura ayudando a Desarrollo con microservices |
 
 ---
 
 ## 📊 Tamaños de Equipo Recomendados
 
-| Etapa de Empresa | Ingeniería Total | Desarrollo | DevOps | Producto | Diseño | Arquitectura |
-|------------------|------------------|------------|--------|----------|--------|--------------|
-| **Startup** (10-20) | 6-12 | 5-8 (1 squad) | 1 | 1-2 | 1 | 0 |
-| **Scale-up** (20-50) | 15-35 | 12-25 (2-3 squads) | 2-3 | 2-3 | 2-3 | 0-1 |
-| **Medium** (50-100) | 35-70 | 25-50 (3-6 squads) | 3-5 | 4-7 | 4-6 | 1-2 |
-| **Enterprise** (100-300) | 70-210 | 50-150 (6-20 squads) | 5-10 | 8-15 | 6-10 | 2-4 |
-| **Large Enterprise** (300+) | 210+ | 150+ (20+ squads) | 8-15 | 10-20 | 8-15 | 5-10 |
+| Etapa de Empresa            | Ingeniería Total | Desarrollo           | DevOps | Producto | Diseño | Arquitectura |
+| --------------------------- | ---------------- | -------------------- | ------ | -------- | ------ | ------------ |
+| **Startup** (10-20)         | 6-12             | 5-8 (1 squad)        | 1      | 1-2      | 1      | 0            |
+| **Scale-up** (20-50)        | 15-35            | 12-25 (2-3 squads)   | 2-3    | 2-3      | 2-3    | 0-1          |
+| **Medium** (50-100)         | 35-70            | 25-50 (3-6 squads)   | 3-5    | 4-7      | 4-6    | 1-2          |
+| **Enterprise** (100-300)    | 70-210           | 50-150 (6-20 squads) | 5-10   | 8-15     | 6-10   | 2-4          |
+| **Large Enterprise** (300+) | 210+             | 150+ (20+ squads)    | 8-15   | 10-20    | 8-15   | 5-10         |
 
 ---
 
